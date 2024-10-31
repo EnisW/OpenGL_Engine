@@ -11,10 +11,10 @@
 	   "-Wall",
 	   "-g",
 	   "-I${workspaceFolder}/dependencies/include",
-	   "-I${workspaceFolder}/dependencies/glad",  // Glad include dizini
+	   "-I${workspaceFolder}/dependencies/glad",  
 	   "-L${workspaceFolder}/dependencies/library",
 	   "${workspaceFolder}/dependencies/library/libglfw.3.4.dylib",
-	   "${workspaceFolder}/src/glad.c", // Glad dosyası
+	   "${workspaceFolder}/src/glad.c", 
 	   "${workspaceFolder}/*.cpp",
 	   "-o",
 	   "${workspaceFolder}/app",
