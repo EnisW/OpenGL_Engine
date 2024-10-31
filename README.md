@@ -1,2 +1,2 @@
 # OpenGL_Engine
-opengl learning journey :)
+OpenGL learning journey :)
