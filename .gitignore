@@ -1,5 +1,3 @@
 # .gitignore
-*.lib
-*.a
 *.h
-*.so
+*.c
