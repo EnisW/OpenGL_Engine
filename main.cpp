@@ -2,8 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void process_input(GLFWwindow* window);  
+void framebuffer_size_callback(GLFWwindow*, int, int);
+void process_input(GLFWwindow*);  
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Learn OpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "Learning OpenGL", NULL, NULL);
 
     if(!window) 
     {
