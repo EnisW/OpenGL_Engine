@@ -15,7 +15,7 @@
 	   "-L${workspaceFolder}/dependencies/library",
 	   "${workspaceFolder}/dependencies/library/libglfw.3.4.dylib",
 	   "${workspaceFolder}/dependencies/src/glad.c", 
-	   "${workspaceFolder}/*.cpp",
+	   "${workspaceFolder}/src/*.cpp",
 	   "-o",
 	   "${workspaceFolder}/app",
 	   "-framework",
